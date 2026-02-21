@@ -1,87 +1,100 @@
-#  FY26 Financial Forecast & Scenario Analysis  
+# FY26 Financial Forecast and Scenario Analysis  
 ## Britannia Industries | FP&A Project
 
 ---
 
-##  Project Overview
+## Project Overview
 
-This project demonstrates a Financial Planning & Analysis (FP&A) model built using historical financial data (FY23–FY25) to forecast FY26 performance for Britannia Industries.
+This project presents a driver-based Financial Planning and Analysis (FP&A) model developed using consolidated historical financial data from FY23 to FY25 to forecast FY26 performance for Britannia Industries.
 
-###  Objective
-- Analyze historical revenue and margin trends  
-- Identify key business and cost drivers  
-- Build a driver-based forecast model  
-- Perform Base, Upside, and Downside scenario analysis  
-- Design an executive-level financial dashboard  
+The project reflects real-world corporate FP&A practices, focusing on margin analysis, cost drivers, and scenario-based financial planning.
 
 ---
 
-##  Historical Performance Insights
+## Project Objectives
+
+- Analyze historical revenue and profitability trends  
+- Identify key business and cost drivers  
+- Build a driver-based financial forecast for FY26  
+- Perform Base Case, Upside Case, and Downside Case scenario analysis  
+- Create an executive-level financial dashboard  
+
+---
+
+## Historical Performance Insights (FY23–FY25)
 
 - Revenue growth accelerated in FY25  
-- EBITDA margin peaked in FY24 (~19%)  
-- Margin pressure observed in FY25  
-- Raw material cost (~60% of revenue) identified as the primary margin driver  
-
-###  EBITDA Margin Trend
-
-![EBITDA Margin Trend](EBITDA_margin_trend.png)
+- EBITDA margin peaked in FY24 at approximately 19 percent  
+- Margin pressure observed in FY25 due to cost inflation  
+- Raw material cost, at approximately 60 percent of revenue, identified as the primary margin driver  
 
 ---
 
-##  Key Financial Drivers Identified
+## EBITDA Margin Trend
+
+![EBITDA Margin Trend](ebitda_margin_trend.png)
+
+Figure: Historical EBITDA margin trend showing margin expansion in FY24 and compression in FY25
+
+---
+
+## Key Financial Drivers Identified
 
 ### Revenue Drivers
 - Volume growth  
 - Pricing power  
 
 ### Cost Drivers
-- Raw material inflation (dominant risk factor)  
-- Advertising spend as discretionary lever  
+- Raw material inflation as the dominant margin risk  
+- Advertising and promotion spend as a discretionary lever  
 - Relatively stable employee cost structure  
 
 ---
 
-##  FY26 Forecast & Scenario Analysis
+## FY26 Forecast and Scenario Analysis
 
-The model includes three scenarios to evaluate financial risk exposure:
+The model evaluates FY26 financial performance under three scenarios to assess profitability sensitivity and downside risk.
 
-| Scenario   | EBITDA Margin |
-|------------|--------------|
-| Base       | ~17%        |
-| Upside     | ~19.5%      |
-| Downside   | ~14.5%      |
+| Scenario   | EBITDA Margin (Approx.) |
+|-----------|--------------------------|
+| Base Case | ~17.0%                   |
+| Upside    | ~19.5%                   |
+| Downside  | ~14.5%                   |
 
-###  Key Insight
-A 1% change in raw material cost ratio materially impacts EBITDA, highlighting high margin sensitivity to commodity inflation.
+### Key Insight
 
-###  Scenario Snapshot
-
-![Scenario Values](Scenario Values.png)
+A one percentage point change in the raw material cost ratio has a material impact on EBITDA margin, highlighting strong sensitivity to commodity inflation.
 
 ---
 
-## Tools & Techniques Used
+## Scenario Analysis Snapshot
 
-- Microsoft Excel (Advanced Formulas)  
-- MATCH & CHOOSE for dynamic scenario modeling  
-- Driver-based financial forecasting  
+![Scenario Values](scenario_values.png)
+
+Figure: Scenario-based EBITDA margin outcomes driven primarily by raw material cost assumptions
+
+---
+
+## Tools and Techniques Used
+
+- Microsoft Excel with structured financial modeling  
+- Driver-based forecasting methodology  
+- Scenario modeling using MATCH and CHOOSE functions  
 - Margin sensitivity analysis  
-- Executive dashboard design  
+- Executive-level dashboard design  
 
 ---
 
-##  Repository Contents
+## Conclusion
 
-- `Britannia_FY26_FP&A_Model.xlsx` – Complete financial model  
-- `Britannia_FY26_Financial_Forecast_Presentation.pptx` – Executive presentation  
-- Dashboard & scenario screenshots  
-
----
-
-##  Conclusion
-
-Raw material cost volatility remains the most critical financial risk.  
-Structured scenario planning enhances decision-making and financial preparedness.
+- Raw material cost volatility represents the most critical profitability risk  
+- Advertising spend can be tactically adjusted to partially protect margins  
+- Scenario planning improves financial preparedness and management decision-making  
+- The model demonstrates practical FP&A thinking aligned with corporate finance roles  
 
 ---
+
+## Notes
+
+- All financial data used is consolidated  
+- This project is intended to be interview-ready for FP&A, corporate finance, and management consulting roles  
